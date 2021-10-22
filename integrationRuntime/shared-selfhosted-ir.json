@@ -1,0 +1,12 @@
+{
+	"name": "shared-selfhosted-ir",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/b69812de-2914-44c6-a0e7-da67955c16a8/resourcegroups/TestEnv/providers/Microsoft.DataFactory/factories/Adfnaveen1/integrationruntimes/selfhosted-ir",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
