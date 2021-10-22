@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-demo-rai"
 		},
+		"ls_git_connectionString": {
+			"value": ""
+		},
 		"shared-selfhosted-ir_properties_typeProperties_linkedInfo_resourceId": {
 			"value": "/subscriptions/b69812de-2914-44c6-a0e7-da67955c16a8/resourcegroups/TestEnv/providers/Microsoft.DataFactory/factories/Adfnaveen1/integrationruntimes/selfhosted-ir"
 		}

@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adf-demo-rai"
 		},
+		"ls_git_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ls_git'"
+		},
 		"shared-selfhosted-ir_properties_typeProperties_linkedInfo_resourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/b69812de-2914-44c6-a0e7-da67955c16a8/resourcegroups/TestEnv/providers/Microsoft.DataFactory/factories/Adfnaveen1/integrationruntimes/selfhosted-ir"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"ls_git_connectionString": {
+						"value": "[parameters('ls_git_connectionString')]"
 					},
 					"shared-selfhosted-ir_properties_typeProperties_linkedInfo_resourceId": {
 						"value": "[parameters('shared-selfhosted-ir_properties_typeProperties_linkedInfo_resourceId')]"
