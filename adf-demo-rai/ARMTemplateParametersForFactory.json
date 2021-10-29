@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-demo-rai"
 		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
 		"ls_git_connectionString": {
 			"value": ""
 		},
